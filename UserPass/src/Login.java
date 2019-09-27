@@ -6,13 +6,11 @@ public class Login {
 
         User user = getLoginDetails();
 
-        verifyUser(user);
+        verifyUser(user, "brian", "spam");
     }
 
-    private static void verifyUser(User user) {
-        String correctUsername = "brian";
-        String correctPassword = "spam";
-        if(user.getUsername().equals(correctUsername) && user.getPassword().equals(correctPassword)) {
+    private static void verifyUser(User user, String username, String password) {
+        if(user.getUsername().equals(username) && user.getPassword().equals(password)) {
             System.out.println("Welcome " + user.getUsername());
         }
         else {
