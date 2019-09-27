@@ -8,17 +8,19 @@ public class Paradox {
     The process involves generating a random number between 1 and 365 (a birthday) and will loop for the number of people
     that will be in the room (n). If the randomly generated number matches a number that is already in the list then the loop
     will exit and the counter will be incremented. This counter keeps track of the number of times a matching birthday occured
-    during the 1000 times the process was carried out. Probably is then calculated by dividing the count by the number of times the
-    loop ran. 
+    during the 1000 times the process was carried out. Probability is then calculated by dividing the count by the number of times the
+    loop ran.
      */
 
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the number of people in the room");
-        int n = scanner.nextInt();
         double count = 0;
         double loops = 1000;
         ArrayList<Integer> birthdays = new ArrayList<>();
+
+        System.out.println("Please enter the number of people in the room");
+        int n = scanner.nextInt();
+
         for (int x = 0; x < loops; x++) {
             for (int i = 1; i < n; i++) {
                 int birthday = getRandomNumber();
