@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.8/1.8.iml" filepath="$PROJECT_DIR$/1.8/1.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BirthdayParadox/BirthdayParadox.iml" filepath="$PROJECT_DIR$/BirthdayParadox/BirthdayParadox.iml" />
       <module fileurl="file://$PROJECT_DIR$/CS251-Exercises.iml" filepath="$PROJECT_DIR$/CS251-Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElectricityBill/ElectricityBill.iml" filepath="$PROJECT_DIR$/ElectricityBill/ElectricityBill.iml" />
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamScore/TeamScore.iml" filepath="$PROJECT_DIR$/TeamScore/TeamScore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserPass/UserPass.iml" filepath="$PROJECT_DIR$/UserPass/UserPass.iml" />
     </modules>
   </component>
 </project>
