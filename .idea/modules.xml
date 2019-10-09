@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamScore/TeamScore.iml" filepath="$PROJECT_DIR$/TeamScore/TeamScore.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserPass/UserPass.iml" filepath="$PROJECT_DIR$/UserPass/UserPass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2Coursework/Week2Coursework.iml" filepath="$PROJECT_DIR$/Week2Coursework/Week2Coursework.iml" />
     </modules>
   </component>
 </project>
